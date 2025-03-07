@@ -1,0 +1,32 @@
+@media (max-width: 1280px) {
+  .container {
+    padding: 15px;
+  }
+
+  .articles {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles {
+    flex-direction: column;
+  }
+
+  .main-article {
+    order: 1;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .side-articles {
+    order: 2;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}
