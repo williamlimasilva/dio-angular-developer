@@ -2,18 +2,33 @@
   <header>
     <app-menu-bar></app-menu-bar>
   </header>
-  <body>
-    <app-menu-title></app-menu-title>
-    <div class="articles">
-      <div class="main-article">
-        <app-big-card></app-big-card>
-      </div>
-      <div class="side-articles">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-      </div>
+
+  <app-menu-title></app-menu-title>
+  <div class="articles">
+    <div class="main-article">
+      <app-big-card
+        photoCover="https://placehold.co/600x400"
+        cardTitle="Big Card Title"
+        cardDescription="Description of the big card."
+      ></app-big-card>
     </div>
-  </body>
+    <div class="side-articles">
+      <app-small-card
+        photoCover="https://placehold.co/300x200"
+        cardTitle="Small Card Title"
+        cardDescription="Description of the small card."
+      ></app-small-card>
+      <app-small-card
+        photoCover="https://placehold.co/300x200"
+        cardTitle="Another Small Card Title"
+        cardDescription="Description of another small card."
+      ></app-small-card>
+      <app-small-card
+        photoCover="https://placehold.co/300x200"
+        cardTitle="Another Small Card Title"
+        cardDescription="Description of another small card."
+      ></app-small-card>
+    </div>
+  </div>
   <footer></footer>
 </div>
