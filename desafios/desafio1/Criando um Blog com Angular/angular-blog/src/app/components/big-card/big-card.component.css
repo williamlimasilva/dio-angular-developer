@@ -1,0 +1,12 @@
+.container__big-card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 2rem;
+}
+
+.container__big-card h2 a {
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: bold;
+}

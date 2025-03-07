@@ -1,0 +1,20 @@
+.container__small-card {
+  display: block;
+  gap: 1rem;
+}
+
+.small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.small-card-separator {
+  margin: 1rem 0;
+}
