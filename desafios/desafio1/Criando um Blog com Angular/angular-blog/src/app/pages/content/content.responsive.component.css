@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .content__cover img {
+    width: 80%;
+    min-width: auto;
+  }
+
+  .content__title h1 {
+    font-size: 2.4rem;
+  }
+
+  .back-button {
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+  }
+}

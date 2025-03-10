@@ -1,6 +1,5 @@
 .container__menu-title {
   color: #ffffff;
-  margin: 15px 0;
 }
 
 .container__menu-title > h1 {
@@ -14,6 +13,5 @@
 .container__menu-title > hr {
   width: 100%;
   border: 1px solid #ffffff;
-  margin: 20px 0;
   opacity: 0.5;
 }

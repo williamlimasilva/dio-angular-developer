@@ -6,7 +6,9 @@
       alt="Small card image"
     />
     <div class="small-card-text">
-      <h2 class="small-card-title">{{ cardTitle }}</h2>
+      <h2 class="small-card-title">
+        <a [routerLink]="['content', id]">{{ cardTitle }}</a>
+      </h2>
       <p class="small-card-description">
         {{ cardDescription }}
       </p>

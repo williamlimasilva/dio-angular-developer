@@ -5,8 +5,15 @@
   gap: 2rem;
 }
 
-.container__big-card h2 a {
-  text-decoration: none;
-  font-size: 4rem;
-  font-weight: bold;
+.container__big-card {
+  & h2 a {
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  & p a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
