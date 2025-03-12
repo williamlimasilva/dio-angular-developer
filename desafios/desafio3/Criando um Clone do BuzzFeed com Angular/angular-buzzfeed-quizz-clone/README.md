@@ -1,59 +1,63 @@
-# AngularBuzzfeedQuizzClone
+# Angular BuzzFeed Quiz Clone
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+Este projeto é um clone simplificado do BuzzFeed Quiz, desenvolvido em Angular, com foco em boas práticas de organização e desenvolvimento.
 
-## Development server
+## Recursos Principais
 
-To start a local development server, run:
+- Questionários dinâmicos com pontuação automática
+- Estrutura modular em Angular para facilitar manutenção
+- Layout simples e adaptável
 
-```bash
-ng serve
-```
+### Início do Quiz
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+![Tela Inicial](./public/assets/images/start.png)
 
-## Code scaffolding
+### Final do Quiz com Reset Adicionado
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![Tela Final](./public/assets/images/end.png)
 
-```bash
-ng generate component component-name
-```
+## Requisitos
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Node.js (versão atualizada)
+- Angular CLI (versão compatível)
 
-```bash
-ng generate --help
-```
+## Como Instalar
 
-## Building
+1. Clone o repositório
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-To build the project run:
+## Como Executar
 
-```bash
-ng build
-```
+1. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+2. Acesse a aplicação em `http://localhost:4200`
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Estrutura de Pastas
 
-## Running unit tests
+- `src/app`: Módulos e componentes Angular
+- `src/assets`: Recursos estáticos (imagens, ícones etc.)
+- `src/environments`: Configurações de ambiente
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Testes
 
-```bash
-ng test
-```
+- Execute os testes unitários:
+  ```bash
+  ng test
+  ```
 
-## Running end-to-end tests
+## Contribuição
 
-For end-to-end (e2e) testing, run:
+Contribuições são bem-vindas. Para contribuir:
 
-```bash
-ng e2e
-```
+1. Crie um branch para sua feature/fix.
+2. Faça o commit das alterações.
+3. Abra um Pull Request.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Licença
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
