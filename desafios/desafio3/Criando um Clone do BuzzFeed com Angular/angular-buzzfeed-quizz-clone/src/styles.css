@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* Global CSS Reset */
+* {
+  font-size: 62.5%; /* 1rem = 10px */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #faebd7;
+}
+
+body {
+  background-color: #1f1147;
+}
