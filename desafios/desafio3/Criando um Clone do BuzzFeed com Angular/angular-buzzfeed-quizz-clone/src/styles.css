@@ -1,7 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 /* Global CSS Reset */
+:root {
+  --primary-color: #8a2be2;
+  --secondary-color: #6a5acd;
+  --tertiary-color: #aaece1;
+  --accent-color: #ff6347;
+  --background-color: #b560e6;
+  --text-color: #333;
+  --shadow: 0 0.4rem 1rem #0000001a;
+  --border-radius: 1.2rem;
+  --transition: all 0.3s ease;
+}
+
 * {
   font-size: 62.5%; /* 1rem = 10px */
+  font-family: "Comic Sans MS", cursive, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;

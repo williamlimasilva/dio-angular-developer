@@ -1,1 +1,32 @@
-<div class="container__quizz"></div>
+<div class="container__quizz">
+  <div class="quizz_logo">
+    <div class="title-column">
+      <h1>HEROES</h1>
+      <h1>VS</h1>
+      <h1>VILLAINS</h1>
+    </div>
+    <!-- <img src="/assets/images/logo.png" alt="Quizz Logo" /> -->
+    <h3>{{ title }}</h3>
+  </div>
+  @if(!finished) {
+  <div class="quizz_questions">
+    <h3>{{ questionSelected.question }}</h3>
+  </div>
+  } @if(!finished) {
+  <div class="quizz_options">
+    @for (option of questionSelected.options; track i; let i = $index) {
+    <button class="btn-option" (click)="selectOption(option.alias)">
+      {{ option.name }}
+    </button>
+    }
+  </div>
+  } @if (finished) {
+  <div class="quizz_results">
+    <h3>Confira seu destino</h3>
+    <p>{{ answerSelected }}</p>
+    @if(showRestartButton){
+    <button class="restart-button" (click)="restart()">Restart</button>
+    }
+  </div>
+  }
+</div>

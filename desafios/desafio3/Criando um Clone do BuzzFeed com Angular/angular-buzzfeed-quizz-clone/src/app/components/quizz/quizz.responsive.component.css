@@ -1,0 +1,37 @@
+/* Media Queries */
+@media (max-width: 768px) {
+  .container__quizz {
+    width: 90vw;
+    padding: 1.6rem;
+    gap: 1.6rem;
+  }
+
+  .quizz_questions {
+    font-size: 1.8rem;
+    padding: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .quizz_options {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Suporte a temas escuros */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #2a2d34;
+    --text-color: #f8f9fa;
+  }
+
+  .quizz_questions {
+    background-color: #3e4149;
+    color: #ffffff;
+  }
+
+  .quizz_options button {
+    background-color: #3e4149;
+    color: #ffffff;
+  }
+}
